@@ -22,8 +22,29 @@ body{
 .title{
     font-family: 'Noto Sans TC';
     color: rgb(195, 52, 52);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border: groove;
+    border-color: rgb(8, 5, 21);
+    margin: 20px 100px 25px 100px;
+    width: 50%;
+
 }
 
-.box1{
-    display:none
+.header{ 
+    font-family: 'Noto Sans TC';
+    font-size: 40px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
 }
+.content{
+    font-family: 'Noto Sans TC';
+    font-size: 40px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+    
