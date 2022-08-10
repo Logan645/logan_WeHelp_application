@@ -1,10 +1,11 @@
 html{
-    height:100%
+    /* height: 110%; */
+    padding-bottom: 50px;
 }
 
 body{
     background-image: 
-    url("https://images.unsplash.com/photo-1616410731303-6affae095a0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2002&q=80");
+    url("https://images.pexels.com/photos/316466/pexels-photo-316466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -13,38 +14,45 @@ body{
 @font-face {
     font-family: 'Noto Sans TC';
     font-style: normal;
-    font-weight: 100;
+    font-weight: 900;
     src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff2) format('woff2'),
          url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff) format('woff'),
          url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.otf) format('opentype');
   }
   
+.header{ 
+    font-family: 'Noto Sans TC';
+    font-size: 40px;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border-style: double;
+    margin: 0 auto
+}
+
 .title{
     font-family: 'Noto Sans TC';
-    color: rgb(195, 52, 52);
+    color: rgb(5, 4, 8);
     display: flex;
     justify-content: center; 
     align-items: center; 
     border: groove;
     border-color: rgb(8, 5, 21);
     margin: 20px 100px 25px 100px;
-    width: 50%;
-
+    border-radius: 10px 10px 10px 10px;
 }
 
-.header{ 
-    font-family: 'Noto Sans TC';
-    font-size: 40px;
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-
-}
 .content{
     font-family: 'Noto Sans TC';
-    font-size: 40px;
+    font-size: 20px;
+    margin: 0 auto; 
+    width: 900px;
     display: flex;
     justify-content: center; 
     align-items: center; 
 }
-    
+
+/*手拿鉛筆的特寫鏡頭 https://images.pexels.com/photos/316466/pexels-photo-316466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 */

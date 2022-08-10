@@ -11,7 +11,7 @@ function boxDisplay(box)
     }   
 }   
 
-function OnlyboxDisplay(box)
+function oneBoxDisplay(box)
 {   
     var box = document.getElementById(box);
     var box1 = document.getElementById("box1");
