@@ -43,16 +43,74 @@ body{
     border-color: rgb(8, 5, 21);
     margin: 20px 100px 25px 100px;
     border-radius: 10px 10px 10px 10px;
+    /* font-size: 40px; */
 }
 
 .content{
     font-family: 'Noto Sans TC';
     font-size: 20px;
     margin: 0 auto; 
-    width: 900px;
+    width: 80%;
     display: flex;
     justify-content: center; 
     align-items: center; 
 }
 
 /*手拿鉛筆的特寫鏡頭 https://images.pexels.com/photos/316466/pexels-photo-316466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 */
+
+@media screen and (max-width:600px){
+    body{
+        background-image: 
+        /* url("https://images.pexels.com/photos/942873/pexels-photo-942873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); */
+        url("https://images.pexels.com/photos/316466/pexels-photo-316466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right bottom;
+        background-size: contain;
+    }
+    @font-face {
+        font-family: 'Noto Sans TC';
+        font-style: normal;
+        font-weight: 900;
+        src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff2) format('woff2'),
+             url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff) format('woff'),
+             url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.otf) format('opentype');
+      }
+
+    .header{ 
+        font-family: 'Noto Sans TC';
+        font-size: 30px;
+        width: 90%;
+        height: 100px;
+        text-align: center;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        border-style: double;
+        margin: 0 auto
+    }
+
+    .title{
+        font-family: 'Noto Sans TC';
+        color: rgb(5, 4, 8);
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin: 20px 20px 20px 20px;
+        border: groove;
+        border-color: rgb(8, 5, 21);
+        border-radius: 10px 10px 10px 10px;
+        font-size: 75%;
+    
+    }
+    
+    .content{
+        font-family: 'Noto Sans TC';
+        font-size: 16px;
+        margin: 0 auto; 
+        width: 80%;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+    }
+}
