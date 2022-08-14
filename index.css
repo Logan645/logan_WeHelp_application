@@ -55,7 +55,16 @@ body{
     justify-content: center; 
     align-items: center; 
 }
-.keywords{font-weight: bold;}
+img{
+    width:50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+span[class="keywords"]{
+    font-weight: bolder;
+}
 
 /*手拿鉛筆的特寫鏡頭 https://images.pexels.com/photos/316466/pexels-photo-316466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 */
 
@@ -68,6 +77,13 @@ body{
         background-attachment: fixed;
         background-position: right bottom;
         background-size: contain;
+    }
+    img{
+        width:50%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
     }
     @font-face {
         font-family: 'Noto Sans TC';
